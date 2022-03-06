@@ -1,11 +1,10 @@
 import './App.css';
+import MainGrid from './components/MainGrid';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-5xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className="App w-full h-screen bg-forest-bg relative overflow-hidden flex justify-center items-center">
+      <MainGrid/>
     </div>
   );
 }
