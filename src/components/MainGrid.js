@@ -19,7 +19,7 @@ const MainGrid = () => {
                     </div>
                 </div>
                 <div className='flex m-auto justify-center'>
-                    <img src={Dani} alt="Logo" className="rounded-3xl bg-red-100 w-4/5 md:w-3/5"/>
+                    <img src={Dani} alt="Logo" className="rounded-3xl bg-red-100 w-4/5 md:w-3/5 xl:w-2/5"/>
                 </div>
             </div>
         </div>
