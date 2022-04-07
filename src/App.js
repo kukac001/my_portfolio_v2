@@ -1,6 +1,7 @@
 import './App.css';
 import MainGrid from './components/MainGrid';
 import Profile from './components/Profile';
+import Typical from 'react-typical';
 
 
 function App() {
