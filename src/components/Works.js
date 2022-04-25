@@ -3,7 +3,7 @@ import { AiFillCode } from 'react-icons/ai';
 
 const Works = () => {
     return ( 
-        <div className="text-white font-mono text-center mt-40" id="projects">
+        <div className="text-white font-mono text-center mt-40 bg-slate-800" id="projects">
             <h1 className="text-3xl mb-5">My recent work</h1>
             <p>(Click on the icon to see the code)</p>
             <div className="flex justify-center flex-col sm:flex-row items-center flex-wrap gap-2 sm:gap-12">
