@@ -1,10 +1,10 @@
-import uni from '../images/uni.jpg'
+import uni from '../images/uni.png'
 
 const Studies = () => {
     return ( 
-        <div className="text-white font-mono text-center">
-            <h1 className="text-3xl mb-5 mt-5">Studies so far</h1>
-            <div className="flex justify-center flex-col items-center sm:flex-row">
+        <div className="text-white font-mono text-center" id="education">
+            <h1 className="text-3xl mb-5 mt-40">Studies so far</h1>
+            <div className="flex justify-center flex-col items-center sm:flex-row" >
                 <div>
                     <img src={uni} alt="Uni" className="rounded-xl"/>
                 </div>

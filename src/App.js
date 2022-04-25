@@ -3,6 +3,7 @@ import MainGrid from './components/MainGrid';
 import Profile from './components/Profile';
 import Navbar from './components/Navbar';
 import Studies from './components/Studies';
+import Works from './components/Works';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MainGrid/>
       <Profile/>
       <Studies/>
+      <Works/>
     </div>
   );
 }
