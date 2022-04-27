@@ -5,8 +5,45 @@ import Navbar from './components/Navbar';
 import Studies from './components/Studies';
 import Works from './components/Works';
 import SideBar from './components/SideBar';
+import Chart from './components/Chart';
 
 function App() {
+  const data = {
+    chartData: {
+      labels: [
+        "C, Java, Android Studio, SQL",
+        "",
+        "",
+        "",
+        "Python",
+        "",
+        "",
+        "",
+        "HTML, CSS, JavaScript, React, Tailwind CSS",
+        "",
+        "",
+        "",
+        "Got my first developer job",
+      ],
+      data: [
+        1,
+        2.215,
+        2.22,
+        2.25,
+        4.2,
+        4.3,
+        4.5,
+        3,
+        3.3,
+        5,
+        2.325,
+        2.325,
+        10,
+      ],
+    },
+  };
+  
+
   return (
     <div className="App w-full h-screen bg-gradient-to-r from-gray-700 via-gray-900 to-black relative overflow-auto ">
       
@@ -20,6 +57,7 @@ function App() {
                 <MainGrid/>
                 <Profile/>
                 <Studies/>
+                <Chart info={data}/>
                 <Works/>
                 </div>
             </div>
