@@ -3,6 +3,7 @@ import { FiGithub } from 'react-icons/fi';
 import { SiCodewars } from 'react-icons/si';
 
 const SideBar = () => {
+    
     return ( 
         <div class="flex flex-col h-72">
 
@@ -18,6 +19,7 @@ const SideBar = () => {
             </a>
             
         </div>
+        
     );
 }
  
