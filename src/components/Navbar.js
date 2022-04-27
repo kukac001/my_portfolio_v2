@@ -5,7 +5,9 @@ const Navbar = () =>{
     let Links =[
       {name:"PROFILE",link:"#profile"},
       {name:"EDUCATION",link:"#education"},
+      {name:"TECHNOLOGIES",link:"#technologies"},
       {name:"PROJECTS",link:"#projects"},
+      {name:"GET IN TOUCH",link:"#end"},
     ];
     let [open,setOpen]=useState(false);
   return (

@@ -7,7 +7,7 @@ const Works = () => {
             <h1 className="text-3xl mb-5">My recent work</h1>
             <p>(Click on the icon to see the code)</p>
             <div className="flex justify-center flex-col sm:flex-row items-center flex-wrap gap-2 sm:gap-12">
-                <div class="flex items-center justify-center mt-10 shadow-2xl h-80">
+                <div class="flex items-center justify-center mt-10 shadow-2xl h-80 border-2 border-dashed border-slate-300 rounded-2xl">
                     <figure class="group relative max-w-xs cursor-pointer opacity-80 ">
                         <h1>ElonBot</h1>
                         <a class="hover:bg-slate-600" href="https://github.com/kukac001/Elonbot2">
@@ -21,7 +21,7 @@ const Works = () => {
                         </ul>
                     </figure>
                 </div>
-                <div class="flex items-center justify-center mt-10 shadow-2xl h-80">
+                <div class="flex items-center justify-center mt-10 shadow-2xl h-80 border-2 border-dashed border-slate-300 rounded-2xl">
                     <figure class="group relative max-w-xs cursor-pointer opacity-80 ">
                         <h1>TensorFlow LBP operator</h1>
                         <a class="hover:bg-slate-600" href="https://github.com/kukac001/tensorFlowCPU_LBP">
@@ -35,7 +35,7 @@ const Works = () => {
                         </ul>
                     </figure>
                 </div>
-                <div class="flex items-center justify-center mt-10 shadow-2xl h-80">
+                <div class="flex items-center justify-center mt-10 shadow-2xl h-80 border-2 border-dashed border-slate-300 rounded-2xl">
                     <figure class="group relative max-w-xs cursor-pointer opacity-80 ">
                         <h1>This portfolio website</h1>
                         <a class="hover:bg-slate-600" href="https://github.com/kukac001/my_portfolio_v2">
@@ -49,7 +49,7 @@ const Works = () => {
                         </ul>
                     </figure>
                 </div>
-                <div class="flex items-center justify-center mt-10 shadow-2xl h-80">
+                <div class="flex items-center justify-center mt-10 shadow-2xl h-80 border-2 border-dashed border-slate-300 rounded-2xl">
                     <figure class="group relative max-w-xs cursor-pointer opacity-80 ">
                         <h1>Albi-soft</h1>
                         <a class="hover:bg-slate-600" href="https://albi-soft.hu/">

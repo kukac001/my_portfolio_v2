@@ -88,7 +88,7 @@ const StockChart = ({ info }) => {
     });
     
     return (
-        <div className='flex justify-center w-full flex-col content-center items-center'>
+        <div className='flex justify-center w-full flex-col content-center items-center' id="technologies">
             <h1 className="text-3xl mb-1 mt-40 text-white font-mono text-center">Technologies, that I learnt so far</h1>
             <h3>(You can see how my skill level accumulated)</h3>
             <div className="rounded shadow-xl overflow-hidden w-full md:flex mt-1 " style={{ maxWidth: '900px' }}>

@@ -6,6 +6,8 @@ import Studies from './components/Studies';
 import Works from './components/Works';
 import SideBar from './components/SideBar';
 import Chart from './components/Chart';
+import Email from './components/Email';
+import Footer from './components/Footer';
 
 function App() {
   const data = {
@@ -58,7 +60,11 @@ function App() {
                 <Profile/>
                 <Studies/>
                 <Chart info={data}/>
-                <Works/>
+                <div className='bg-slate-800'>
+                  <Works/>
+                  <Email/>
+                </div>
+                <Footer/>
                 </div>
             </div>
         </div>
